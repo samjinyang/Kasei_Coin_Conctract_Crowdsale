@@ -7,9 +7,10 @@ In this project, we endeavor to develop a monetary system for the first human co
 In order to run these contract, please do the following:
 
 1. Open up **Remix IDE** and open up the files **KaseiCoin.sol** and **KaseiCrowdsale.sol**.
-2. Go to the left-hand menue in Remix, and make sure **JavaScript VM** is selected before compiling.
-3. Hit the **Compile (Solidity File)** button.
-4. If the compilation is successful, you will then be able to deploy the contract.  However if it is unsuccessful, read the error messages for debugging.
+2. Go to the left-hand menu in Remix, look for the **Solidity compiler** icon.
+3. Once there, make sure on the first field under **Compiler**, you set it to **0.5.0** for the **KaseiCoin.sol** contract, and **0.5.5** for the **KaseiCrowdsale.sol** contract.
+5. Hit the **Compile (Solidity File)** button.
+6. If the compilation is successful, you will then be able to deploy the contract.  However if it is unsuccessful, read the error messages for debugging.
 
 ## Deploying Contracts on the Blockchain
 
@@ -22,6 +23,9 @@ In Ganache, you will pull test accounts to use with the contracts as you see her
 You will use the **private keys** from Ganache's test accounts to import accounts into **Metamask**, as you can see here:
 
 ![metamask](https://user-images.githubusercontent.com/80929342/131048517-e7a634e0-3fee-43bc-882d-976ee8c53466.JPG)
+
+Back in **Remix**, go to the **Deploy & run transactions** icon on the left hand menu, and set the environment to **Injected Web3**.
+This should automatically open up Metamask and you can choose which account in Metamask you want to use for deploying the contract.
 
 ## Evaluation Evidence
 
